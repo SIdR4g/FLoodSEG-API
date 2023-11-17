@@ -55,13 +55,9 @@ The Floodseg API is a powerful tool designed for precise flood monitoring using 
    ```
 
 
-## Contributing
-(Include guidelines for contributors, code of conduct, etc.)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
-- Mention any specific libraries, tools, or research papers that were crucial to the project.
 
 Feel free to explore the codebase and contribute to the development of this innovative flood monitoring solution!
