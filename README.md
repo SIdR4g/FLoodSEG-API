@@ -29,7 +29,7 @@ The Floodseg API is a powerful tool designed for precise flood monitoring using 
 ### Linux Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/floodseg-api.git
+   git clone https://github.com/SIdR4g/FLoodSEG-API.git
    cd floodapi
    ```
    
