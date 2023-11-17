@@ -21,10 +21,11 @@ The Floodseg API is a powerful tool designed for precise flood monitoring using 
 ### Prerequisites
 - Python 3.x
 - Django
+- DjangoRestFramework
 - PyTorch
 - OpenCV
-- (Add any other dependencies)
-
+- Roboflow
+  
 ### Installation
 1. Clone the repository:
    ```bash
