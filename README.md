@@ -26,13 +26,19 @@ The Floodseg API is a powerful tool designed for precise flood monitoring using 
 - OpenCV
 - Roboflow
   
-### Installation
+### Linux Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/floodseg-api.git
    cd floodapi
    ```
-
+   
+2. Install dependencies:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+   
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
