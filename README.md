@@ -33,23 +33,23 @@ The Floodseg API is a powerful tool designed for precise flood monitoring using 
    cd floodapi
    ```
    
-2. Install dependencies:
+2. Create a virtual environment:
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
    
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Apply migrations:
+4. Apply migrations:
    ```bash
    python manage.py migrate
    ```
 
-4. Start the development server:
+5. Start the development server:
    ```bash
    python manage.py runserver
    ```
