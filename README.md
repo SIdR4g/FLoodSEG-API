@@ -54,7 +54,46 @@ The Floodseg API is a powerful tool designed for precise flood monitoring using 
    python manage.py runserver
    ```
 
+## Usage
 
+### API Endpoints
+
+- **Endpoint 1:** `/home/account/register`
+  - Method: POST
+  - Description: Register a new user.
+  - Request Body: 
+
+      ![Screenshot 2023-12-23 161733](https://github.com/SIdR4g/FLoodSEG-API/assets/78850085/e75e9b65-0356-4551-9dbf-0c3b39e035b3)
+
+
+- **Endpoint 2:** `/home/account/login`
+  - Method: POST
+  - Description: Log in and obtain authentication token.
+  - Request Body: 
+  
+      ![Screenshot 2023-12-23 161834](https://github.com/SIdR4g/FLoodSEG-API/assets/78850085/d06dadb7-d822-4fdf-91e2-c15595150aea)
+
+-  **Endpoint 3:** `/home/api/upload/`
+  - Method: POST
+  - Description: Perform flood area segmentation on input images.
+  - Request Body:
+    
+    ![Screenshot 2023-12-23 161207](https://github.com/SIdR4g/FLoodSEG-API/assets/78850085/fc33806f-90ba-42b1-a3ad-396e5c0c8145)
+
+- **Endpoint 4:** `/home/api/upload/`
+  - Method: GET
+  - Description: Gets all the data relating to the previous uploaded images from the database.
+
+- **Endpoint 5:** `/home/api/upload_patch/`
+  - Method: POST
+  - Description: Perform flood area segmentation on input images.
+  - Request Body:
+    ![Screenshot 2023-12-23 161413](https://github.com/SIdR4g/FLoodSEG-API/assets/78850085/a58fdb40-d001-468b-b22c-0ed5cb4feb23)
+
+- **Endpoint 6:** `/api/home/upload_patch?search=<patch_code>&merge=<"segment">&patch_dimension=<>`
+  - Method: GET
+  - Description: Searches all the images having the same patch code and merges the segmented images by the dimension given .For example:- 2X2 means there are 4 images and order them by their id in 2X2 format
+  
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
